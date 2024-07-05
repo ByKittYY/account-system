@@ -1,0 +1,4 @@
+- Updated the Twitter Oauth Library for Twitter API v1.1 (in /includes/twitteroauth/)
+- Some fixes for Twitter API v1.1 in in /includes/account/oauth.php and /includes/account/tw_oauth.php
+- Updated the get_avatar() function in Account.class.php 
+- Mailer function fix for some servers that don't support PHPMailer. Add $config['PHPMailer'] = FALSE; in account_config.php to disable PHPMailer. Function changed : send_email() in Account.class.php
